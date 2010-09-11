@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.discburner"
+       name="Disc Burner"
+       version="0.0.1"
+       provider-name="Daniel Jolly">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	  <provides>executable</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>linux</platform>
+    <summary>CD/DVD/BD Burner Plugin</summary>
+    <description>A XBMC Disc Burning plugin/frontend.
+
+Any issues, ideas or any other comments, please visit:
+http://wiki.github.com/djcode/XBMC-DiscBurner-Plugin/</description>
+  </extension>
+</addon>
